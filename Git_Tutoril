@@ -48,6 +48,8 @@ Note: Short status flags are:
 Warning: Skipping the Staging Environment is not generally recommended.
 Skipping the stage step can sometimes make you include unwanted changes.
 
+Check the compact version of the status for repository:
+git status --short
 Git Commit Log
 To view the history of commits for a repository, you can use the log command:
 git log
