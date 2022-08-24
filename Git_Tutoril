@@ -59,27 +59,21 @@ Git Help
 git command -help -  See all the available options for the specific command
 git help --all    -  See all possible commands
 *---------------------------------------------------------------*
-Git Branch
-git branch hello-world-images
+Merge Branches
+git checkout master
+Switched to branch 'master'
+git merge emergency-fix
 
-Now we created a new branch called "hello-world-images"
-Let's confirm that we have created a new branch:
-git branch
+git branch -d emergency-fix
+Deleted branch emergency-fix (was dfa79db).
 
+Merge Conflict
+Now we can move over to hello-world-images and keep working. Add another image file (img_hello_git.jpg) and change index.html, so it shows it:
+Example
 git checkout hello-world-images
 Switched to branch 'hello-world-images'
 git add --all
-git status
-git commit -m "Added image to Hello World"
-ls
-git checkout master
-Switched to branch 'master'
-ls
-README.md  bluestyle.css  index.html
-
-Emergency Branch
-
-git checkout -b emergency-fix
-Switched to a new branch 'emergency-fix'
-
-*---------------------------------------------------------------*
+git commit -m "added new image"
+ git checkout master
+ git merge hello-world-images
+ git status
