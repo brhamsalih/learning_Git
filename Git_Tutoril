@@ -72,8 +72,23 @@ Now we can move over to hello-world-images and keep working. Add another image f
 Example
 git checkout hello-world-images
 Switched to branch 'hello-world-images'
+
 git add --all
+
 git commit -m "added new image"
+
  git checkout master
+
  git merge hello-world-images
+
  git status
+
+ git add index.html
+
+git status
+
+git commit -m "merged with hello-world-images after fixing conflicts"
+[master e0b6038] merged with hello-world-images after fixing conflicts
+
+git branch -d hello-world-images
+Deleted branch hello-world-images (was 1f1584e).
