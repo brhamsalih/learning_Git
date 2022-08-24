@@ -59,3 +59,27 @@ Git Help
 git command -help -  See all the available options for the specific command
 git help --all    -  See all possible commands
 *---------------------------------------------------------------*
+Git Branch
+git branch hello-world-images
+
+Now we created a new branch called "hello-world-images"
+Let's confirm that we have created a new branch:
+git branch
+
+git checkout hello-world-images
+Switched to branch 'hello-world-images'
+git add --all
+git status
+git commit -m "Added image to Hello World"
+ls
+git checkout master
+Switched to branch 'master'
+ls
+README.md  bluestyle.css  index.html
+
+Emergency Branch
+
+git checkout -b emergency-fix
+Switched to a new branch 'emergency-fix'
+
+*---------------------------------------------------------------*
