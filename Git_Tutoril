@@ -1,0 +1,49 @@
+1-git --version
+*---------------------------------------------------------------*
+2-Configure Git
+git config --global user.name "w3schools-test"
+git config --global user.email "test@w3schools.com"
+*---------------------------------------------------------------*
+3-Creating Git Folder
+mkdir myproject
+cd myproject
+*---------------------------------------------------------------*
+4-Initialize Git
+git init 
+*---------------------------------------------------------------*
+5-Git Adding New Files
+touch index.html
+git status
+*---------------------------------------------------------------*
+6-Git Staging Environment
+git add index.html
+*---------------------------------------------------------------*
+7-Git Add More than One File
+1-README.md
+
+2-bluestyle.css
+
+Now add all files in the current directory to the Staging Environment:
+git add --all
+
+Now all 3 files are added to the Staging Environment, and we are ready to do our first commit.
+
+Note: The shorthand command for git add --all is git add -A
+*---------------------------------------------------------------*
+8-
+Git Commit
+git commit -m "First release of Hello World!"
+
+
+Git Commit without Stage
+
+
+
+Note: Short status flags are:
+
+    ?? - Untracked files
+    A - Files added to stage
+    M - Modified files
+    D - Deleted files
+
+
