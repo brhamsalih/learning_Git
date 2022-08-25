@@ -1,0 +1,10 @@
+Git GitHub Getting Started
+GitHub Account
+Go to GitHub and sign up for an account:
+
+Create a Repository on GitHub
+Push Local Repository to GitHub
+Copy the URL, or click the clipboard marked in the image above.
+
+Now paste it the following command:
+git remote add origin https://github.com/w3schools-test/hello-world.git

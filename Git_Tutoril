@@ -64,6 +64,8 @@ git checkout master
 Switched to branch 'master'
 git merge emergency-fix
 
+Note: Using the -b option on checkout will create a new branch, and move to it, if it does not exist
+
 git branch -d emergency-fix
 Deleted branch emergency-fix (was dfa79db).
 
